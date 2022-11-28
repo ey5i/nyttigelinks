@@ -20,6 +20,11 @@
 
 <style>
 
+@font-face {
+font-family: "myfont";
+src: url("font.woff") format('woff');
+}
+
 #responza {
 position: fixed;
 display: block;
@@ -99,6 +104,10 @@ display: none;              /* Removes the scrollbar */
 -moz-user-select: none;     /* Firefox all */
 -ms-user-select: none;      /* IE 10+ */
 user-select: none;          /* Likely future */
+}
+ 
+.body {
+  font-family: myfont
 }
 
 a {
